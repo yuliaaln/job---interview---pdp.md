@@ -22,10 +22,8 @@ Ruby adalah seorang pencari harta karun, dia harus mengumpulkan koin terlebih da
 Sebagai | Saya ingin bisa | Sehingga | Prioritas
 ---|---|---|---
 Player | Berjalan kemana mana |Bisa Mencari petunjuk|⭐⭐⭐⭐⭐
-Player | Mengumpulkan koin |Bisa  mendapatkan petunjuk dari pos
- | ⭐⭐⭐⭐⭐
-Player | Mendapatkan Kunci |Membuka peti harta karun
-|⭐⭐⭐⭐⭐
+Player | Mengumpulkan koin |Bisa  mendapatkan petunjuk dari pos | ⭐⭐⭐⭐⭐
+Player | Mendapatkan Kunci |Membuka peti harta karun |⭐⭐⭐⭐⭐
 Player | Melewati rintangan |Bisa melanjutkan mencari petunjuk|⭐⭐⭐⭐
 
 ## 3. Struktur Data
@@ -51,6 +49,7 @@ bla bla bla
 ![Contoh](![Layout dashboard](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/1b1af946-1851-4801-8616-2bdef50d5604))
 
 ## 7. Flowchart 
+
 
 ## 8. Prinsip - prinsip yang diterapkan dalam game
       - Variable
