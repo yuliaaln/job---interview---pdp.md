@@ -11,7 +11,7 @@ Ruby adalah seorang pencari harta karun, dia harus mengumpulkan koin terlebih da
 1.3.1 Nama / Merk Game:
       Diamond Treasure Hunter 
 
-1.3.2 Deskripsi Target
+1.3.2 Deskripsi Target :
       Anak anak usia 8 tahun ke atas
 
 1.3.3 Genre :
@@ -29,8 +29,6 @@ Player | Melewati rintangan |Bisa melanjutkan mencari petunjuk|⭐⭐⭐⭐
 ## 3. Struktur Data
 
 ## 5. Teknologi, Library, dan Framework
-
-bla bla bla
 
 ## 6. Desain User Experience dan User Interface
 ![Layout dashboard](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/1b1af946-1851-4801-8616-2bdef50d5604)
