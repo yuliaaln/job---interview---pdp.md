@@ -49,7 +49,7 @@ bla bla bla
 
 ![Layout masuk permainan](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/d44aaad2-c7b1-4b6e-ac76-f2ce78cfe07d)
 
-![Layout game](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/22c6b258-ffbe-43da-834b-dd913b86ded8)
+![Uploading Screenshot 2023-11-08 13.33.05.png…]()
 
 
 ## 7. Flowchart 
