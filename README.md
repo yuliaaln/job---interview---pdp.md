@@ -28,32 +28,20 @@ Player | Melewati rintangan |Bisa melanjutkan mencari petunjuk|⭐⭐⭐⭐
 
 ## 3. Struktur Data
 
-Cara membuat aneka macam bentuk grafik menggunakan mermaid.js bisa lihat di [https://mermaid.js.org/syntax/entityRelationshipDiagram.html](https://mermaid.js.org/syntax/entityRelationshipDiagram.html) 
-
-```mermaid
-erDiagram
-    RUJAK ||--o{ SAYUR : tersusun
-    PEMBELI ||--|{ RUJAK : beli
-```
-
-## 4. Arsitektur Sistem
-
-Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/syntax/flowchart.html](https://mermaid.js.org/syntax/flowchart.html)
-
 ## 5. Teknologi, Library, dan Framework
 
 bla bla bla
 
 ## 6. Desain User Experience dan User Interface
-(![Layout dashboard](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/1b1af946-1851-4801-8616-2bdef50d5604)
+![Layout dashboard](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/1b1af946-1851-4801-8616-2bdef50d5604)
 
 ![Layout masuk permainan](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/d44aaad2-c7b1-4b6e-ac76-f2ce78cfe07d)
 
-![Uploading Screenshot 2023-11-08 13.33.05.png…]()
+![Screenshot 2023-11-08 13 33 05](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/0b52dace-da42-430f-aa11-6240a468b80c)
 
 
 ## 7. Flowchart 
-![Uploading perancangan game-flowchart.drawio.png…]()
+![perancangan game-flowchart drawio](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/5bf59d6f-dbc3-4f2e-b2e4-caf761e24c27)
 
 
 ## 8. Prinsip - prinsip yang diterapkan dalam game
