@@ -45,10 +45,15 @@ Masih pake mermaid.js juga bisa lihat flowchart di [https://mermaid.js.org/synta
 bla bla bla
 
 ## 6. Desain User Experience dan User Interface
+(![Layout dashboard](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/1b1af946-1851-4801-8616-2bdef50d5604)
 
-![Contoh](![Layout dashboard](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/1b1af946-1851-4801-8616-2bdef50d5604))
+![Layout masuk permainan](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/d44aaad2-c7b1-4b6e-ac76-f2ce78cfe07d)
+
+![Layout game](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/22c6b258-ffbe-43da-834b-dd913b86ded8)
+
 
 ## 7. Flowchart 
+![Uploading perancangan game-flowchart.drawio.png…]()
 
 
 ## 8. Prinsip - prinsip yang diterapkan dalam game
