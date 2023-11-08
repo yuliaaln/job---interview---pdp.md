@@ -4,7 +4,7 @@ Latar belakang saya  membuat game ini yaitu sebagai wadah untuk menyalurkan peng
 
 ## 1.2. Deksripsi Teknologi Informasi
 
-Ruby adalah seorang pencari harta karun, dia harus mengumpulkan koin terlebih dahulu untuk menuju ke pos, di pos tersebut dia akan mendapatkan petunjuk. Ruby harus mengikuti semua petunjuk yang bersumber dari catatan di pos yang dia kunjungi untuk mendapatkan kunci dan jalan menuju peti harta karun. Namun, di tengah permainan Ruby juga harus melewati beberapa rintangan agar bisa mendapatkan harta karun tersebut.
+Ruby adalah seorang pencari harta karun, dia harus mengumpulkan koin terlebih dahulu untuk menuju ke pos, di pos tersebut dia harus menjawab sebuah soal untuk mendapatkan petunjuk. Ruby harus mengikuti semua petunjuk yang bersumber dari catatan di pos yang dia kunjungi untuk mendapatkan kunci dan jalan menuju peti harta karun. Namun, di tengah permainan Ruby juga harus melewati beberapa rintangan agar bisa mendapatkan harta karun tersebut.
 
 ## 1.3. Branding
 
