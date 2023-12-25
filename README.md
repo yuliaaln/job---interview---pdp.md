@@ -27,9 +27,10 @@ Player | Melewati rintangan |Melanjutkan mencari petunjuk |⭐⭐⭐⭐⭐
 Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐⭐⭐
 
 ## 3. Struktur Data
-![struktur data](https://github.com/yuliaaln/uts-uas-pdp.md/assets/144923542/e5729cdd-4d30-4698-8440-bcf2c6615afc)
+![struktur data game](https://github.com/yuliaaln/uts-uas-pdp.md/assets/144923542/b01e7107-6c10-44a7-b607-7dcee11084b5)
 
 ## 5. Teknologi, Library, dan Framework
+
 
 
 ## 6. Desain User Experience dan User Interface
