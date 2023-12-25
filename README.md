@@ -22,11 +22,12 @@ Ruby adalah seorang pencari harta karun, dia harus mengumpulkan koin terlebih da
 Sebagai | Saya ingin bisa | Sehingga | Prioritas
 ---|---|---|---
 Player | Berjalan kemana mana |Bisa Mencari petunjuk|⭐⭐⭐⭐⭐
-Player | Mengumpulkan koin |Bisa  mendapatkan petunjuk dari pos | ⭐⭐⭐⭐⭐
-Player | Mendapatkan Kunci |Membuka peti harta karun |⭐⭐⭐⭐⭐
-Player | Melewati rintangan |Bisa melanjutkan mencari petunjuk|⭐⭐⭐⭐
+Player | Mengambil koin |Menambah energi player dan mendapat petunjuk| ⭐⭐⭐⭐⭐
+Player | Melewati rintangan |Melanjutkan mencari petunjuk |⭐⭐⭐⭐⭐
+Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐⭐⭐
 
 ## 3. Struktur Data
+
 
 ## 5. Teknologi, Library, dan Framework
 
