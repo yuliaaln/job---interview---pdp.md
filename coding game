@@ -39,27 +39,27 @@ public class DiamondTreasure {
 
     };
 
-    private static int playerX; 
+    private static int playerX;
     private static int playerY;
     private static int treasures = 0; // Jumlah harta karun yang telah dikumpulkan
     private static int totalTreasures = 6; // Total harta karun yang harus dikumpulkan
-    private static int energy = 250; 
+    private static int energy = 250;
 
     //method mindahin player
-    private static void movePlayer(int moveX, int moveY) { 
-        int newX = playerX + moveX; //ditimpa
+    private static void movePlayer(int moveX, int moveY) {
+        int newX = playerX + moveX;
         int newY = playerY + moveY;
 
         if (isValidMove(newX, newY)) {
             char newPosition = maze[newX][newY];
 
             //Karkter mengambil koin dan energi bertambah
-            if (newPosition == 'C') { 
-                maze[newX][newY] = ' '; 
-                energy += 8; 
+            if (newPosition == 'C') {
+                maze[newX][newY] = ' ';
+                energy += 8;
                 System.out.println("Anda mendapatkan koin! Energi +8");
             //// Karakter mengambil dan mengumpulkan harta karun
-            } else if (newPosition == 'T') { 
+            } else if (newPosition == 'T') {
                 if (treasures == totalTreasures - 1) {
                     System.out.println("Anda telah mengumpulkan semua harta karun. Selamat!");
                     System.exit(0);
@@ -67,15 +67,15 @@ public class DiamondTreasure {
                     System.out.println("Anda belum mengumpulkan semua harta karun.");
                 }
             //Energi berkurang jika karakter menginjak ular
-            } else if (newPosition == '£') { 
-                energy -= 5; 
+            } else if (newPosition == '£') {
+                energy -= 5;
                 System.out.println("Anda terkena ular! Energi -5");
             }
             //Hapus dan update posisi karakter
-            maze[playerX][playerY] = ' '; 
+            maze[playerX][playerY] = ' ';
             playerX = newX;
             playerY = newY;
-            maze[playerX][playerY] = 'M'; 
+            maze[playerX][playerY] = 'M';
 
             energy--; // Setiap gerakan mengurangi energi
             if (energy <= 0) {
@@ -119,7 +119,7 @@ public class DiamondTreasure {
         boolean program = true;
         char input;
         do {
-            printMaze(); 
+            printMaze();
     
             System.out.println("Energi: " + energy);
             System.out.print("Masukkan perintah (w/a/s/d untuk gerak, q untuk keluar): ");
@@ -139,11 +139,11 @@ public class DiamondTreasure {
                     movePlayer(0, 1); // Bergerak ke kanan
                     break;
                 case 'q':
-                    if(treasures == 0){
+                    if (treasures == totalTreasures) {
                         System.out.println("Keluar permainan.");
                         program = false;
                     }else{
-                        System.out.println("Harta karun (T) Belum terkumpul semua !");
+                        System.out.println("Harta karun (T) Belum terkumpul semua, anda tidak bisa keluar permainan!");
                     }
                     break;
                 default:
@@ -155,5 +155,4 @@ public class DiamondTreasure {
     
         scanner.close();
     }
-}    
-
+}
