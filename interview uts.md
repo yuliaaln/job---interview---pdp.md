@@ -115,6 +115,7 @@ Dalam game ini, konsep looping dan array digunakan untuk mengatur dan merepresen
                   Ini digunakan dalam method printMaze untuk menampilkan labirin ke layar.
       - do-while loop: Loop ini digunakan sebagai loop utama permainan. Permainan akan terus berlanjut selama variabel program bernilai true.
       - switch-case statement: Digunakan untuk menanggapi input dari pemain dan memanggil metode movePlayer sesuai dengan arah gerakan yang dipilih.
+
       
       2. Array:
       - private static char[][] maze: Digunakan sebagai array dua dimensi untuk merepresentasikan labirin. Setiap elemen array menyimpan karakter yang mewakili bagian dari labirin (dinding, karakter pemain, koin, ular, dan harta karun).
