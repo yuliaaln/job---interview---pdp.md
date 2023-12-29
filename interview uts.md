@@ -67,37 +67,37 @@ Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐�
 ## 10. Link folder kode pemograman
 
 ## 11. Bagaimana konsep variable, data type dan operator pada bahasa pemrograman digunakan dalam pembuatan game ini ?
-Pada script code game ini, terdapat konsep-konsep dasar dalam pemrograman, seperti variable, data type, dan operator. konsep tersebut digunakan untuk mengatur dan mengontrol jalannya permainan. Berikut adalah penjelasan dari penggunaan konsep-konsep tersebut dalam game:
-      1. Variable:
-            - maze: Variabel array dua dimensi yang menyimpan representasi labirin permainan.
-            - playerX dan playerY: Variabel untuk menyimpan koordinat pemain dalam labirin.
-            - treasures: Variabel untuk menyimpan jumlah harta karun yang telah dikumpulkan.
-            - totalTreasures: Variabel untuk menyimpan total harta karun yang harus dikumpulkan.
-            - energy: Variabel untuk menyimpan nilai energi pemain.
-            
-      2. Data Type:
-            - char: Tipe data karakter digunakan untuk menyimpan elemen-elemen dalam labirin.
-            - int: Tipe data integer digunakan untuk menyimpan nilai bilangan bulat, seperti jumlah harta karun dan energi.
-            
-      3. Operator:
-            - Operator penugasan (=): Digunakan untuk memberikan nilai pada variabel, seperti playerX = x;.
-            - Operator perbandingan (==, <=, <, >=, >): Digunakan untuk membandingkan nilai, misalnya pada kondisi if (treasures == totalTreasures - 1).
-            - Operator aritmatika (+=, -=): Digunakan untuk operasi penambahan dan pengurangan, seperti dalam mendapatkan koin (energy += 8;) dan terkena ular (energy -= 5;).
+Pada script code game ini, terdapat konsep-konsep dasar dalam pemrograman, seperti variable, data type, dan operator. konsep tersebut digunakan untuk mengatur dan mengontrol jalannya permainan. Berikut adalah penjelasan dari penggunaan konsep-konsep tersebut dalam game
+1. Variable:
+   - maze: Variabel array dua dimensi yang menyimpan representasi labirin permainan.
+   - playerX dan playerY: Variabel untuk menyimpan koordinat pemain dalam labirin.
+   - treasures: Variabel untuk menyimpan jumlah harta karun yang telah dikumpulkan.
+   - totalTreasures: Variabel untuk menyimpan total harta karun yang harus dikumpulkan.
+   - energy: Variabel untuk menyimpan nilai energi pemain.
+     
+2. Data Type:
+   - char: Tipe data karakter digunakan untuk menyimpan elemen-elemen dalam labirin.
+   - int: Tipe data integer digunakan untuk menyimpan nilai bilangan bulat, seperti jumlah harta karun dan energi.
+     
+3. Operator:
+   - Operator penugasan (=): Digunakan untuk memberikan nilai pada variabel, seperti playerX = x;.
+   - Operator perbandingan (==, <=, <, >=, >): Digunakan untuk membandingkan nilai, misalnya pada kondisi if (treasures == totalTreasures - 1).
+   - Operator aritmatika (+=, -=): Digunakan untuk operasi penambahan dan pengurangan, seperti dalam mendapatkan koin (energy += 8;) dan terkena ular (energy -= 5;).
             - Operator logika (&&, ||): Digunakan untuk operasi logika, seperti pada method isValidMove.
             - Operator pemanggilan metode atau fungsi (.): Digunakan untuk memanggil metode atau fungsi dari suatu objek, contohnya scanner.next().
 
 ## 12. Bagaimana konsep boolean dan conditions pada bahasa pemrograman digunakan dalam pembuatan game ini ? 
-      Dalam game ini, konsep boolean dan kondisi (conditions) digunakan untuk mengatur alur permainan dan mengambil keputusan berdasarkan situasi tertentu. Berikut adalah beberapa contoh penggunaan konsep boolean dan kondisi dalam game ini:
+Dalam game ini, konsep boolean dan kondisi (conditions) digunakan untuk mengatur alur permainan dan mengambil keputusan berdasarkan situasi tertentu. Berikut adalah beberapa contoh penggunaan konsep boolean dan kondisi dalam game ini:
 
-      1. Variabel Boolean:
-            - program: Variabel boolean digunakan untuk mengontrol loop utama permainan. Jika program adalah true, maka permainan akan terus berlanjut.
-            
-      2. Conditions (Kondisi):
-            Pada blok if dalam metode movePlayer: 
-            - if (newPosition == 'C'): Kondisi ini menguji apakah karakter bergerak ke posisi yang berisi koin ('C'). Jika benar, karakter mengambil koin, energi bertambah, dan pesan ditampilkan.
-            - else if (newPosition == 'T'): Kondisi ini memeriksa apakah karakter bergerak ke posisi yang berisi harta karun ('T'). Jika benar dan semua harta karun telah dikumpulkan, permainan selesai. Jika belum, pesan ditampilkan.
-            - else if (newPosition == '£'): Kondisi ini memeriksa apakah karakter bergerak ke posisi yang berisi ular ('£'). Jika benar, energi berkurang dan pesan ditampilkan.
-            - else: Kondisi default yang berlaku jika tidak ada kondisi di atas yang terpenuhi. Posisi lama karakter dihapus dari labirin, posisi baru diupdate, dan energi dikurangkan.
+1. Variabel Boolean:
+   - program: Variabel boolean digunakan untuk mengontrol loop utama permainan. Jika program adalah true, maka permainan akan terus berlanjut.
+   
+2. Conditions (Kondisi):
+   Pada blok if dalam metode movePlayer: 
+   - if (newPosition == 'C'): Kondisi ini menguji apakah karakter bergerak ke posisi yang berisi koin ('C'). Jika benar, karakter mengambil koin, energi bertambah, dan pesan ditampilkan.
+   - else if (newPosition == 'T'): Kondisi ini memeriksa apakah karakter bergerak ke posisi yang berisi harta karun ('T'). Jika benar dan semua harta karun telah dikumpulkan, permainan selesai. Jika belum, pesan ditampilkan.
+   - else if (newPosition == '£'): Kondisi ini memeriksa apakah karakter bergerak ke posisi yang berisi ular ('£'). Jika benar, energi berkurang dan pesan ditampilkan.
+   - else: Kondisi default yang berlaku jika tidak ada kondisi di atas yang terpenuhi. Posisi lama karakter dihapus dari labirin, posisi baru diupdate, dan energi dikurangkan.
 
       Kondisi di atas digunakan untuk mengendalikan jalannya permainan, memberikan feedback kepada pemain, dan menentukan kapan permainan harus dihentikan. Konsep boolean dan kondisi ini sangat penting dalam logika alur permainan untuk membuatnya interaktif dan menarik.
       
