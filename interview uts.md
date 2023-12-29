@@ -33,8 +33,8 @@ Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐�
 
 ## 4. Teknologi, Library, dan Framework
 
-    UI/UX Design : Figma
-    Text Editor : VS Code
+UI/UX Design : Figma
+Text Editor : VS Code
 
 
 ## 5. Desain User Experience dan User Interface
