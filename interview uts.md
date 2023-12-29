@@ -177,63 +177,30 @@ Dalam pembuatan game ini, konsep class pada bahasa pemrograman Java digunakan un
 Dengan menggunakan konsep class, game ini menjadi lebih terstruktur, modular, dan memudahkan pemeliharaan serta pengembangan kode di masa depan. Setiap elemen game dikelola dalam satu entitas (kelas) yang menyederhanakan kompleksitas program.
 
 ## 16. Jelaskan algoritma buatan sendiri yang digunakan pada pembuatan game ini !
-1. **Inisialisasi:**
-   - Tampilkan awal game.
-   - Tampilkan menu pemilihan karakter.
+1. **Tampilan awal game**
+   - Tampilkan start, setting, exit
      
-     a. Pemilihan karakter:
-           Saat pengguna ingin bermain game, pertama pengguna bisa memilih menu setting dan akan di arahkan pada menu pemilihan karakteruntuk memilih karakter terlebih dahulu.
-          
-     b. Pemilihan level:
-        Kemudian pengguna bisa memilih tingkat kesulitan/level pada game ini, yaitu ada level :
+     a. Menu Start
+           Pada menu start terdapat pemilihan level / tingkat kesulitan pada game, yaitu ada level :
            - Easy
            - Medium
            - Hard
-
-3. **Memulai Permainan:**
+     
+     b. Menu Setting
+           Saat pengguna ingin bermain game, pertama pengguna bisa memilih menu setting dan akan di arahkan pada menu pemilihan karakter untuk memilih karakter terlebih dahulu.
+          
+2. **Mulai Permainan**
    Ketika tombol "Start" ditekan:
     
      a. Pemilihan level
      b. Permainan di mulai dengan tingkt level yang di pilih.
    
-5. **Arena Permainan:**
-   - Selama permainan berlangsung:
-     
-     a. Tampilkan keadaan arena permainan, termasuk tanaman dan hama.
-     
-     b. Biarkan pemain berinteraksi:
-     
-        - Pemain dapat memilih untuk menyerang hama.
-        - Pemain dapat memilih untuk merawat tanaman.
-        - Periksa apakah tanaman terkena hama.
-        - Tampilkan koin yang diperoleh jika hama berhasil dibunuh.
-        - 
-     c. Perbarui status tanaman dan hama.
+3. **Arena Game**
+   Selama permainan berlangsung:
+   - Player dapat berjalan untuk mencari petunjuk
+   - Player dapat mengumpulkan koin untuk menambah energi dan mendapatkan petunjuk dari pos
+   - Player harus mengumpulkan harta karun sesuai perintah untuk bisa memenangkan permainan
+   - Player harus melewati rintangan berupa ular
+   - Energi yang di miliki player akan berkurang 1 setiap pindah posisi 1x dan akan berkurang 10 jika menginjak ular
+   - Game akan berakhir kalah jika energi player sudah habis / dan akan mennag jika player berhasil mengumpulkan harta karun
 
-6. **Level Up:**
-   - Jika pemain berhasil merawat tanaman dan membunuh semua hama:
-     
-     a. Tampilkan pesan level berhasil.
-     
-     b. Naikkan level permainan.
-     
-     c. Tampilkan pesan bahwa permainan akan lebih menantang.
-
-7. **Game Over:**
-   - Jika tanaman dirusak oleh hama atau level maksimum tercapai:
-     
-     a. Tampilkan pesan "Game Over".
-     
-     b. Tampilkan skor akhir, berdasarkan level dan koin yang diperoleh.
-     
-     c. Biarkan pengguna memilih untuk bermain lagi atau keluar.
-
-8. **Koin dan Pemulihan Tanaman:**
-   - Setiap kali hama dibunuh, tambahkan koin ke total pemain.
-   - Jika tanaman terkena hama, kurangi koin dan tumbuhkan kembali tanaman.
-
-9. **Looping:**
-   - Ulangi langkah-langkah 4 hingga 7 selama pemain masih ingin bermain dan belum mencapai level maksimum.
-
-10. **Finish Game:**
-   - Jika pemain memilih untuk keluar, tampilkan pesan "BERHASIL".
