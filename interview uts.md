@@ -12,9 +12,9 @@ Ruby adalah seorang pencari harta karun, dia harus mendapatkan koin terlebih dah
       Diamond Treasure Hunter 
 
 1.3.2 Deskripsi Target :
-      - Anak anak usia 8 tahun ke atas
-      - Orang yang senang bermain game
-      - Orang yang menyukai tantangan
+- Anak anak usia 8 tahun ke atas
+- Orang yang senang bermain game
+- Orang yang menyukai tantangan
 
 1.3.3 Genre :
       Edukasi
@@ -84,8 +84,8 @@ Pada script code game ini, terdapat konsep-konsep dasar dalam pemrograman, seper
    - Operator penugasan (=): Digunakan untuk memberikan nilai pada variabel, seperti playerX = x;.
    - Operator perbandingan (==, <=, <, >=, >): Digunakan untuk membandingkan nilai, misalnya pada kondisi if (treasures == totalTreasures - 1).
    - Operator aritmatika (+=, -=): Digunakan untuk operasi penambahan dan pengurangan, seperti dalam mendapatkan koin (energy += 8;) dan terkena ular (energy -= 5;).
-            - Operator logika (&&, ||): Digunakan untuk operasi logika, seperti pada method isValidMove.
-            - Operator pemanggilan metode atau fungsi (.): Digunakan untuk memanggil metode atau fungsi dari suatu objek, contohnya scanner.next().
+   - Operator logika (&&, ||): Digunakan untuk operasi logika, seperti pada method isValidMove.
+   - Operator pemanggilan metode atau fungsi (.): Digunakan untuk memanggil metode atau fungsi dari suatu objek, contohnya scanner.next().
 
 ## 11. Bagaimana konsep boolean dan conditions pada bahasa pemrograman digunakan dalam pembuatan game ini ? 
 Dalam game ini, konsep boolean dan kondisi (conditions) digunakan untuk mengatur alur permainan dan mengambil keputusan berdasarkan situasi tertentu. Berikut adalah beberapa contoh penggunaan konsep boolean dan kondisi dalam game ini:
