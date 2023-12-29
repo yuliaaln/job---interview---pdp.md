@@ -65,7 +65,7 @@ Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐�
 [in progres]
 
 ## 9. Link folder kode pemograman
-Link : https://drive.google.com/drive/folders/1Ko1k2nd8g8ah7y4lFkJ9P6ivia3lIOuT?usp=drive_link 
+https://drive.google.com/drive/folders/1Ko1k2nd8g8ah7y4lFkJ9P6ivia3lIOuT?usp=drive_link 
 
 ## 10. Bagaimana konsep variable, data type dan operator pada bahasa pemrograman digunakan dalam pembuatan game ini ?
 Pada script code game ini, terdapat konsep-konsep dasar dalam pemrograman, seperti variable, data type, dan operator. konsep tersebut digunakan untuk mengatur dan mengontrol jalannya permainan. Berikut adalah penjelasan dari penggunaan konsep-konsep tersebut dalam game
@@ -197,9 +197,10 @@ Dengan menggunakan konsep class, game ini menjadi lebih terstruktur, modular, da
    Ketika tombol "Start" ditekan:
     
      a. Pemilihan level
+   
      b. Permainan di mulai dengan tingkt level yang di pilih.
    
-3. **Arena Game**
+4. **Arena Game**
    Selama permainan berlangsung:
    - Player dapat berjalan untuk mencari petunjuk
    - Player dapat mengumpulkan koin untuk menambah energi dan mendapatkan petunjuk dari pos
