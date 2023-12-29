@@ -103,25 +103,24 @@ Dalam game ini, konsep boolean dan kondisi (conditions) digunakan untuk mengatur
       
 ## 13. Bagaimana konsep looping dan array pada bahasa pemrograman digunakan dalam pembuatan game ini ?
 Dalam game ini, konsep looping dan array digunakan untuk mengatur dan merepresentasikan struktur labirin serta melakukan iterasi (perulangan) untuk menampilkan dan mengupdate posisi karakter manusia. Berikut contoh penggunaan konsep looping dan array dalam game ini:
-
       1. Looping :
-            - for (char[] row : maze): Digunakan untuk iterasi melalui setiap baris dalam labirin.
-            - for (char[] row : maze) {
-                  for (char cell : row) {
-                        System.out.print(cell + " ");
+      - for (char[] row : maze): Digunakan untuk iterasi melalui setiap baris dalam labirin.
+      - for (char[] row : maze) {
+            for (char cell : row) {
+                  System.out.print(cell + " ");
                   }
-                        System.out.println();
+                  System.out.println();
                   }
-            Ini digunakan dalam method printMaze untuk menampilkan labirin ke layar.
-            - do-while loop: Loop ini digunakan sebagai loop utama permainan. Permainan akan terus berlanjut selama variabel program bernilai true.
-            - switch-case statement: Digunakan untuk menanggapi input dari pemain dan memanggil metode movePlayer sesuai dengan arah gerakan yang dipilih.
-
+                  Ini digunakan dalam method printMaze untuk menampilkan labirin ke layar.
+      - do-while loop: Loop ini digunakan sebagai loop utama permainan. Permainan akan terus berlanjut selama variabel program bernilai true.
+      - switch-case statement: Digunakan untuk menanggapi input dari pemain dan memanggil metode movePlayer sesuai dengan arah gerakan yang dipilih.
+      
       2. Array:
-            - private static char[][] maze: Digunakan sebagai array dua dimensi untuk merepresentasikan labirin. Setiap elemen array menyimpan karakter yang mewakili bagian dari labirin (dinding, karakter pemain, koin, ular, dan harta karun).
-            - maze[playerX][playerY]: Menunjukkan posisi saat ini karakter manusia dalam labirin.
-            - Labirin diinisialisasi dengan karakter '#' untuk dinding, ' ' untuk celah kosong, 'M' untuk posisi karakter manusia, 'C' untuk koin, 'T' untuk harta karun, dan '£' untuk ular.
+      - private static char[][] maze: Digunakan sebagai array dua dimensi untuk merepresentasikan labirin. Setiap elemen array menyimpan karakter yang mewakili bagian dari labirin (dinding, karakter pemain, koin, ular, dan harta karun).
+      - maze[playerX][playerY]: Menunjukkan posisi saat ini karakter manusia dalam labirin.
+      - Labirin diinisialisasi dengan karakter '#' untuk dinding, ' ' untuk celah kosong, 'M' untuk posisi karakter manusia, 'C' untuk koin, 'T' untuk harta karun, dan '£' untuk ular.
 
-      Melalui penggunaan array dan perulangan, game ini dapat dengan efisien merepresentasikan labirin dan mengatur alur permainan. Looping digunakan untuk menampilkan labirin dan menjalankan permainan, sementara array menyimpan informasi penting tentang struktur labirin dan posisi karakter. 
+Melalui penggunaan array dan perulangan, game ini dapat dengan efisien merepresentasikan labirin dan mengatur alur permainan. Looping digunakan untuk menampilkan labirin dan menjalankan permainan, sementara array menyimpan informasi penting tentang struktur labirin dan posisi karakter. 
    
 ## 14. Bagaimana konsep method pada bahasa pemrograman digunakan dalam pembuatan game ini ?
 Dalam game ini, konsep method digunakan untuk memisahkan tugas-tugas tertentu ke dalam blok-blok kode yang dapat dipanggil saat diperlukan. Pemisahan tugas ini mempermudah pembacaan kode, mengurangi redundansi, dan memungkinkan pengelolaan kode yang lebih baik. Berikut adalah penjelasan penggunaan method dalam game ini:
@@ -188,7 +187,10 @@ Dengan menggunakan konsep class, game ini menjadi lebih terstruktur, modular, da
      
      b. Menu Setting
            Saat pengguna ingin bermain game, pertama pengguna bisa memilih menu setting dan akan di arahkan pada menu pemilihan karakter untuk memilih karakter terlebih dahulu.
-          
+
+     c. Menu Exit
+           Keluar dari game
+     
 2. **Mulai Permainan**
    Ketika tombol "Start" ditekan:
     
