@@ -102,8 +102,7 @@ Dalam game ini, konsep boolean dan kondisi (conditions) digunakan untuk mengatur
       Kondisi di atas digunakan untuk mengendalikan jalannya permainan, memberikan feedback kepada pemain, dan menentukan kapan permainan harus dihentikan. Konsep boolean dan kondisi ini sangat penting dalam logika alur permainan untuk membuatnya interaktif dan menarik.
       
 ## 13. Bagaimana konsep looping dan array pada bahasa pemrograman digunakan dalam pembuatan game ini ?
-      Dalam game ini, konsep looping dan array digunakan untuk mengatur dan merepresentasikan struktur labirin serta melakukan iterasi (perulangan) untuk menampilkan dan mengupdate posisi karakter manusia. Berikut contoh penggunaan konsep looping dan array dalam game ini:
-
+Dalam game ini, konsep looping dan array digunakan untuk mengatur dan merepresentasikan struktur labirin serta melakukan iterasi (perulangan) untuk menampilkan dan mengupdate posisi karakter manusia. Berikut contoh penggunaan konsep looping dan array dalam game ini:
       1. Looping :
             - for (char[] row : maze): Digunakan untuk iterasi melalui setiap baris dalam labirin.
             - for (char[] row : maze) {
@@ -115,8 +114,8 @@ Dalam game ini, konsep boolean dan kondisi (conditions) digunakan untuk mengatur
             Ini digunakan dalam method printMaze untuk menampilkan labirin ke layar.
             - do-while loop: Loop ini digunakan sebagai loop utama permainan. Permainan akan terus berlanjut selama variabel program bernilai true.
 
-switch-case statement: Digunakan untuk menanggapi input dari pemain dan memanggil metode movePlayer sesuai dengan arah gerakan yang dipilih.
-
+            - switch-case statement: Digunakan untuk menanggapi input dari pemain dan memanggil metode movePlayer sesuai dengan arah gerakan yang dipilih.
+      
       2. Array:
             - private static char[][] maze: Digunakan sebagai array dua dimensi untuk merepresentasikan labirin. Setiap elemen array menyimpan karakter yang mewakili bagian dari labirin (dinding, karakter pemain, koin, ular, dan harta karun).
             - maze[playerX][playerY]: Menunjukkan posisi saat ini karakter manusia dalam labirin.
@@ -125,7 +124,7 @@ switch-case statement: Digunakan untuk menanggapi input dari pemain dan memanggi
    Melalui penggunaan array dan perulangan, game ini dapat dengan efisien merepresentasikan labirin dan mengatur alur permainan. Looping digunakan untuk menampilkan labirin dan menjalankan permainan, sementara array menyimpan informasi penting tentang struktur labirin dan posisi karakter. 
    
 ## 14. Bagaimana konsep method pada bahasa pemrograman digunakan dalam pembuatan game ini ?
-      Dalam game ini, konsep method digunakan untuk memisahkan tugas-tugas tertentu ke dalam blok-blok kode yang dapat dipanggil saat diperlukan. Pemisahan tugas ini mempermudah pembacaan kode, mengurangi redundansi, dan memungkinkan pengelolaan kode yang lebih baik. Berikut adalah penjelasan penggunaan method dalam game ini:
+Dalam game ini, konsep method digunakan untuk memisahkan tugas-tugas tertentu ke dalam blok-blok kode yang dapat dipanggil saat diperlukan. Pemisahan tugas ini mempermudah pembacaan kode, mengurangi redundansi, dan memungkinkan pengelolaan kode yang lebih baik. Berikut adalah penjelasan penggunaan method dalam game ini:
 
 1. **`movePlayer(int moveX, int moveY)` Method:**
    - Method ini digunakan untuk memindahkan pemain ke posisi baru sesuai dengan pergerakan yang diinginkan.
@@ -156,8 +155,9 @@ switch-case statement: Digunakan untuk menanggapi input dari pemain dan memanggi
    - Menerima input dari pemain dan memanggil method `movePlayer` untuk melakukan pergerakan sesuai dengan input.
 
 Pemisahan tugas-tugas ini membuat kode lebih terstruktur, mudah dimengerti, dan dapat diubah dengan lebih mudah. Selain itu, method-method ini dapat digunakan kembali atau dimodifikasi tanpa mempengaruhi bagian-bagian lain dari program.
+
 ## 15. Bagaimana konsep class pada bahasa pemrograman digunakan dalam pembuatan game ini ?
-      Dalam pembuatan game ini, konsep class pada bahasa pemrograman Java digunakan untuk mengorganisir kode ke dalam sebuah kelas yang mencerminkan entitas game, yaitu `DiamondTreasure`. Berikut adalah cara konsep class digunakan dalam game ini:
+Dalam pembuatan game ini, konsep class pada bahasa pemrograman Java digunakan untuk mengorganisir kode ke dalam sebuah kelas yang mencerminkan entitas game, yaitu `DiamondTreasure`. Berikut adalah cara konsep class digunakan dalam game ini:
 
 1. **Encapsulation:**
    - Semua variabel yang berkaitan dengan game, seperti `maze`, `playerX`, `playerY`, `treasures`, `totalTreasures`, dan `energy`, dideklarasikan sebagai variabel privat. Ini menerapkan konsep encapsulation, di mana detail implementasi dari kelas tidak terlihat dari luar dan hanya dapat diakses melalui metode-metode publik.
