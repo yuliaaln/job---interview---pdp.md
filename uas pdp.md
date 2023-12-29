@@ -11,39 +11,40 @@
   - if (isValidMove(newX, newY)): Kondisi untuk memeriksa apakah langkah yang dilakukan oleh pemain valid atau tidak.
   - if (newPosition == 'C'), else if (newPosition == 'T'), dan else if (newPosition == '£') : digunakan untuk menentukan aksi yang harus diambil berdasarkan posisi karakter pemain di labirin.
   - script ini termasuk pengkondisian untuk pergerakan atau perpindahan player, yang di simpen di dalam looping  do {  } while (program);
-           switch (input) {
-                case 'w': 
-                       movePlayer(-1, 0); // Bergerak ke atas
-                break;
-                case 'a':
-                    movePlayer(0, -1); // Bergerak ke kiri
-                break;
-               case 's':
-                   movePlayer(1, 0); // Bergerak ke bawah
-               break;
-               case 'd':
-                   movePlayer(0, 1); // Bergerak ke kanan
-              break;
-              case 'q':
-                    if(treasures == 0){
-                        System.out.println("Keluar permainan.");
-                        program = false;
-                   }else{
-                        System.out.println("Harta karun (T) Belum terkumpul semua !");
-                   }
-                   break;
-                   default:
-                   System.out.println("Perintah tidak valid!");
-                   break;
+
+    switch (input) {
+      case 'w':
+        movePlayer(-1, 0); // Bergerak ke atas
+      break;
+      case 'a':
+        movePlayer(0, -1); // Bergerak ke kiri
+      break;
+      case 's':
+        movePlayer(1, 0); // Bergerak ke bawah
+      break;
+      case 'd':
+        movePlayer(0, 1); // Bergerak ke kanan
+      break;
+      case 'q':
+        if(treasures == 0){
+          System.out.println("Keluar permainan.");
+          program = false;
+        else{
+          System.out.println("Harta karun (T) Belum terkumpul semua !");
+        }
+        break;
+        default:
+          System.out.println("Perintah tidak valid!");
+        break;
     
 ## class : 
   public class DiamondTreasuremerupakan deklarasi kelas yang berisi semua logika permainan, seperti metode untuk memindahkan player, memeriksa kevalidan langkah, dan menampilkan labirin.
-            pada class DiamondTreasure ini juga memiliki beberapa variabel class yaitu : 
-               - private static int playerX; 
-               - private static int playerY;
-               - private static int treasures = 0;
-               - private static int totalTreasures = 6;
-               - private static int energy = 250;
+  pada class DiamondTreasure ini juga memiliki beberapa variabel class yaitu :
+    - private static int playerX;
+    - private static int playerY;
+    - private static int treasures = 0;
+    - private static int totalTreasures = 6;
+    - private static int energy = 250;
 ## method : 
   Pada script coding game saya juga menggunakan beberapa method, diantaranya : 
 - private static void movePlayer(int moveX, int moveY): Method untuk memindahkan pemain berdasarkan langkah yang diinginkan.
