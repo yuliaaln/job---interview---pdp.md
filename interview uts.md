@@ -103,30 +103,30 @@ Dalam game ini, konsep boolean dan kondisi (conditions) digunakan untuk mengatur
       
 ## 13. Bagaimana konsep looping dan array pada bahasa pemrograman digunakan dalam pembuatan game ini ?
 Dalam game ini, konsep looping dan array digunakan untuk mengatur dan merepresentasikan struktur labirin serta melakukan iterasi (perulangan) untuk menampilkan dan mengupdate posisi karakter manusia. Berikut contoh penggunaan konsep looping dan array dalam game ini:
+
       1. Looping :
             - for (char[] row : maze): Digunakan untuk iterasi melalui setiap baris dalam labirin.
             - for (char[] row : maze) {
-                for (char cell : row) {
-                    System.out.print(cell + " ");
-                }
-                  System.out.println();
+                  for (char cell : row) {
+                        System.out.print(cell + " ");
+                  }
+                        System.out.println();
                   }
             Ini digunakan dalam method printMaze untuk menampilkan labirin ke layar.
             - do-while loop: Loop ini digunakan sebagai loop utama permainan. Permainan akan terus berlanjut selama variabel program bernilai true.
-
             - switch-case statement: Digunakan untuk menanggapi input dari pemain dan memanggil metode movePlayer sesuai dengan arah gerakan yang dipilih.
-      
+
       2. Array:
             - private static char[][] maze: Digunakan sebagai array dua dimensi untuk merepresentasikan labirin. Setiap elemen array menyimpan karakter yang mewakili bagian dari labirin (dinding, karakter pemain, koin, ular, dan harta karun).
             - maze[playerX][playerY]: Menunjukkan posisi saat ini karakter manusia dalam labirin.
             - Labirin diinisialisasi dengan karakter '#' untuk dinding, ' ' untuk celah kosong, 'M' untuk posisi karakter manusia, 'C' untuk koin, 'T' untuk harta karun, dan '£' untuk ular.
 
-   Melalui penggunaan array dan perulangan, game ini dapat dengan efisien merepresentasikan labirin dan mengatur alur permainan. Looping digunakan untuk menampilkan labirin dan menjalankan permainan, sementara array menyimpan informasi penting tentang struktur labirin dan posisi karakter. 
+      Melalui penggunaan array dan perulangan, game ini dapat dengan efisien merepresentasikan labirin dan mengatur alur permainan. Looping digunakan untuk menampilkan labirin dan menjalankan permainan, sementara array menyimpan informasi penting tentang struktur labirin dan posisi karakter. 
    
 ## 14. Bagaimana konsep method pada bahasa pemrograman digunakan dalam pembuatan game ini ?
 Dalam game ini, konsep method digunakan untuk memisahkan tugas-tugas tertentu ke dalam blok-blok kode yang dapat dipanggil saat diperlukan. Pemisahan tugas ini mempermudah pembacaan kode, mengurangi redundansi, dan memungkinkan pengelolaan kode yang lebih baik. Berikut adalah penjelasan penggunaan method dalam game ini:
 
-1. **`movePlayer(int moveX, int moveY)` Method:**
+1. **Method: `movePlayer(int moveX, int moveY)`**
    - Method ini digunakan untuk memindahkan pemain ke posisi baru sesuai dengan pergerakan yang diinginkan.
    - Parameter `moveX` dan `moveY` menentukan perubahan koordinat pemain.
    - Method melakukan berbagai tugas, termasuk:
@@ -137,19 +137,19 @@ Dalam game ini, konsep method digunakan untuk memisahkan tugas-tugas tertentu ke
      - Memperbarui posisi pemain dalam array labirin.
      - Mengurangi energi pemain dan menangani akhir permainan jika energi habis.
 
-2. **`isValidMove(int x, int y)` Method:**
+2. **Method:`isValidMove(int x, int y)`**
    - Method ini digunakan untuk memeriksa apakah pergerakan ke posisi `(x, y)` valid atau tidak.
    - Memeriksa apakah posisi `(x, y)` berada di dalam labirin dan tidak bertabrakan dengan dinding ('#').
 
-3. **`setPlayerPosition(int x, int y)` Method:**
+3. **Method:`setPlayerPosition(int x, int y)`**
    - Method ini digunakan untuk mengatur posisi awal karakter manusia di labirin.
    - Digunakan saat inisialisasi permainan untuk menempatkan karakter pemain pada posisi awal.
 
-4. **`printMaze()` Method:**
+4. **Method: `printMaze()`**
    - Method ini digunakan untuk menampilkan labirin ke layar.
    - Mencetak setiap elemen array dalam labirin ke layar sehingga pemain dapat melihat tampilan aktual dari labirin.
 
-5. **`main(String[] args)` Method:**
+5. **Method: `main(String[] args)`**
    - Method `main` merupakan entry point dari program.
    - Menggunakan method-method di atas untuk mengorganisir alur utama permainan.
    - Menerima input dari pemain dan memanggil method `movePlayer` untuk melakukan pergerakan sesuai dengan input.
@@ -177,3 +177,63 @@ Dalam pembuatan game ini, konsep class pada bahasa pemrograman Java digunakan un
 Dengan menggunakan konsep class, game ini menjadi lebih terstruktur, modular, dan memudahkan pemeliharaan serta pengembangan kode di masa depan. Setiap elemen game dikelola dalam satu entitas (kelas) yang menyederhanakan kompleksitas program.
 
 ## 16. Jelaskan algoritma buatan sendiri yang digunakan pada pembuatan game ini !
+1. **Inisialisasi:**
+   - Tampilkan awal game.
+   - Tampilkan menu pemilihan karakter.
+     
+     a. Pemilihan karakter:
+           Saat pengguna ingin bermain game, pertama pengguna bisa memilih menu setting dan akan di arahkan pada menu pemilihan karakteruntuk memilih karakter terlebih dahulu.
+          
+     b. Pemilihan level:
+        Kemudian pengguna bisa memilih tingkat kesulitan/level pada game ini, yaitu ada level :
+           - Easy
+           - Medium
+           - Hard
+
+3. **Memulai Permainan:**
+   Ketika tombol "Start" ditekan:
+    
+     a. Pemilihan level
+     b. Permainan di mulai dengan tingkt level yang di pilih.
+   
+5. **Arena Permainan:**
+   - Selama permainan berlangsung:
+     
+     a. Tampilkan keadaan arena permainan, termasuk tanaman dan hama.
+     
+     b. Biarkan pemain berinteraksi:
+     
+        - Pemain dapat memilih untuk menyerang hama.
+        - Pemain dapat memilih untuk merawat tanaman.
+        - Periksa apakah tanaman terkena hama.
+        - Tampilkan koin yang diperoleh jika hama berhasil dibunuh.
+        - 
+     c. Perbarui status tanaman dan hama.
+
+6. **Level Up:**
+   - Jika pemain berhasil merawat tanaman dan membunuh semua hama:
+     
+     a. Tampilkan pesan level berhasil.
+     
+     b. Naikkan level permainan.
+     
+     c. Tampilkan pesan bahwa permainan akan lebih menantang.
+
+7. **Game Over:**
+   - Jika tanaman dirusak oleh hama atau level maksimum tercapai:
+     
+     a. Tampilkan pesan "Game Over".
+     
+     b. Tampilkan skor akhir, berdasarkan level dan koin yang diperoleh.
+     
+     c. Biarkan pengguna memilih untuk bermain lagi atau keluar.
+
+8. **Koin dan Pemulihan Tanaman:**
+   - Setiap kali hama dibunuh, tambahkan koin ke total pemain.
+   - Jika tanaman terkena hama, kurangi koin dan tumbuhkan kembali tanaman.
+
+9. **Looping:**
+   - Ulangi langkah-langkah 4 hingga 7 selama pemain masih ingin bermain dan belum mencapai level maksimum.
+
+10. **Finish Game:**
+   - Jika pemain memilih untuk keluar, tampilkan pesan "BERHASIL".
