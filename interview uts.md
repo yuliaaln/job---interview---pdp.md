@@ -180,7 +180,7 @@ Dengan menggunakan konsep class, game ini menjadi lebih terstruktur, modular, da
 ## 15. Jelaskan algoritma buatan sendiri yang digunakan pada pembuatan game ini !
 1. **Tampilan awal game**
    - Tampilkan start, setting, exit
-     
+
      a. Menu Start
      Pada menu start terdapat pemilihan level / tingkat kesulitan pada game, yaitu ada level :
      - Easy
@@ -194,6 +194,7 @@ Dengan menggunakan konsep class, game ini menjadi lebih terstruktur, modular, da
      Keluar dari game
      
 2. **Mulai Permainan**
+
    Ketika tombol "Start" ditekan:
     
      a. Pemilihan level
@@ -201,6 +202,7 @@ Dengan menggunakan konsep class, game ini menjadi lebih terstruktur, modular, da
      b. Permainan di mulai dengan tingkt level yang di pilih.
    
 4. **Arena Game**
+
    Selama permainan berlangsung:
    - Player dapat berjalan untuk mencari petunjuk
    - Player dapat mengumpulkan koin untuk menambah energi dan mendapatkan petunjuk dari pos
