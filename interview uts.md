@@ -103,6 +103,7 @@ Dalam game ini, konsep boolean dan kondisi (conditions) digunakan untuk mengatur
       
 ## 12. Bagaimana konsep looping dan array pada bahasa pemrograman digunakan dalam pembuatan game ini ?
 Dalam game ini, konsep looping dan array digunakan untuk mengatur dan merepresentasikan struktur labirin serta melakukan iterasi (perulangan) untuk menampilkan dan mengupdate posisi karakter manusia. Berikut contoh penggunaan konsep looping dan array dalam game ini:
+
       1. Looping :
       - for (char[] row : maze): Digunakan untuk iterasi melalui setiap baris dalam labirin.
       - for (char[] row : maze) {
