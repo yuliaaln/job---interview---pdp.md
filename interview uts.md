@@ -67,7 +67,7 @@ Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐�
 ## 10. Link folder kode pemograman
 
 ## 11. Bagaimana konsep variable, data type dan operator pada bahasa pemrograman digunakan dalam pembuatan game ini ?
-      Pada script code game ini, terdapat konsep-konsep dasar dalam pemrograman, seperti variable, data type, dan operator. konsep tersebut digunakan untuk mengatur dan mengontrol jalannya permainan. Berikut adalah penjelasan dari penggunaan konsep-konsep tersebut dalam game:
+Pada script code game ini, terdapat konsep-konsep dasar dalam pemrograman, seperti variable, data type, dan operator. konsep tersebut digunakan untuk mengatur dan mengontrol jalannya permainan. Berikut adalah penjelasan dari penggunaan konsep-konsep tersebut dalam game:
       1. Variable:
             - maze: Variabel array dua dimensi yang menyimpan representasi labirin permainan.
             - playerX dan playerY: Variabel untuk menyimpan koordinat pemain dalam labirin.
