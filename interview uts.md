@@ -65,6 +65,7 @@ Text Editor : VS Code
 [in progres]
 
 ## 9. Link folder kode pemograman
+https://drive.google.com/drive/folders/1Ko1k2nd8g8ah7y4lFkJ9P6ivia3lIOuT?usp=drive_link 
 
 ## 10. Bagaimana konsep variable, data type dan operator pada bahasa pemrograman digunakan dalam pembuatan game ini ?
 Pada script code game ini, terdapat konsep-konsep dasar dalam pemrograman, seperti variable, data type, dan operator. konsep tersebut digunakan untuk mengatur dan mengontrol jalannya permainan. Berikut adalah penjelasan dari penggunaan konsep-konsep tersebut dalam game
