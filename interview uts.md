@@ -31,13 +31,13 @@ Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐�
 ## 3. Struktur Data
 ![struktur data game](https://github.com/yuliaaln/uts-uas-pdp.md/assets/144923542/b01e7107-6c10-44a7-b607-7dcee11084b5)
 
-## 5. Teknologi, Library, dan Framework
+## 4. Teknologi, Library, dan Framework
 
     UI/UX Design : Figma
     Text Editor : VS Code
 
 
-## 6. Desain User Experience dan User Interface
+## 5. Desain User Experience dan User Interface
 ![Layout dashboard](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/1b1af946-1851-4801-8616-2bdef50d5604)
 
 ![Layout masuk permainan](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/d44aaad2-c7b1-4b6e-ac76-f2ce78cfe07d)
@@ -45,11 +45,11 @@ Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐�
 ![Screenshot 2023-11-08 13 33 05](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/0b52dace-da42-430f-aa11-6240a468b80c)
 
 
-## 7. Flowchart 
+## 6. Flowchart 
 ![perancangan game-flowchart drawio](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/5bf59d6f-dbc3-4f2e-b2e4-caf761e24c27)
 
 
-## 8. Prinsip - prinsip yang diterapkan dalam game
+## 7. Prinsip - prinsip yang diterapkan dalam game
       - Variable
       - Data Type
       - Operator
@@ -60,13 +60,13 @@ Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐�
       - Method
       - Class
 
-## 9. Link demo di youtube
+## 8. Link demo di youtube
 
 [in progres]
 
-## 10. Link folder kode pemograman
+## 9. Link folder kode pemograman
 
-## 11. Bagaimana konsep variable, data type dan operator pada bahasa pemrograman digunakan dalam pembuatan game ini ?
+## 10. Bagaimana konsep variable, data type dan operator pada bahasa pemrograman digunakan dalam pembuatan game ini ?
 Pada script code game ini, terdapat konsep-konsep dasar dalam pemrograman, seperti variable, data type, dan operator. konsep tersebut digunakan untuk mengatur dan mengontrol jalannya permainan. Berikut adalah penjelasan dari penggunaan konsep-konsep tersebut dalam game
 1. Variable:
    - maze: Variabel array dua dimensi yang menyimpan representasi labirin permainan.
@@ -86,7 +86,7 @@ Pada script code game ini, terdapat konsep-konsep dasar dalam pemrograman, seper
             - Operator logika (&&, ||): Digunakan untuk operasi logika, seperti pada method isValidMove.
             - Operator pemanggilan metode atau fungsi (.): Digunakan untuk memanggil metode atau fungsi dari suatu objek, contohnya scanner.next().
 
-## 12. Bagaimana konsep boolean dan conditions pada bahasa pemrograman digunakan dalam pembuatan game ini ? 
+## 11. Bagaimana konsep boolean dan conditions pada bahasa pemrograman digunakan dalam pembuatan game ini ? 
 Dalam game ini, konsep boolean dan kondisi (conditions) digunakan untuk mengatur alur permainan dan mengambil keputusan berdasarkan situasi tertentu. Berikut adalah beberapa contoh penggunaan konsep boolean dan kondisi dalam game ini:
 
 1. Variabel Boolean:
@@ -101,7 +101,7 @@ Dalam game ini, konsep boolean dan kondisi (conditions) digunakan untuk mengatur
 
       Kondisi di atas digunakan untuk mengendalikan jalannya permainan, memberikan feedback kepada pemain, dan menentukan kapan permainan harus dihentikan. Konsep boolean dan kondisi ini sangat penting dalam logika alur permainan untuk membuatnya interaktif dan menarik.
       
-## 13. Bagaimana konsep looping dan array pada bahasa pemrograman digunakan dalam pembuatan game ini ?
+## 12. Bagaimana konsep looping dan array pada bahasa pemrograman digunakan dalam pembuatan game ini ?
 Dalam game ini, konsep looping dan array digunakan untuk mengatur dan merepresentasikan struktur labirin serta melakukan iterasi (perulangan) untuk menampilkan dan mengupdate posisi karakter manusia. Berikut contoh penggunaan konsep looping dan array dalam game ini:
       1. Looping :
       - for (char[] row : maze): Digunakan untuk iterasi melalui setiap baris dalam labirin.
@@ -122,7 +122,7 @@ Dalam game ini, konsep looping dan array digunakan untuk mengatur dan merepresen
 
 Melalui penggunaan array dan perulangan, game ini dapat dengan efisien merepresentasikan labirin dan mengatur alur permainan. Looping digunakan untuk menampilkan labirin dan menjalankan permainan, sementara array menyimpan informasi penting tentang struktur labirin dan posisi karakter. 
    
-## 14. Bagaimana konsep method pada bahasa pemrograman digunakan dalam pembuatan game ini ?
+## 13. Bagaimana konsep method pada bahasa pemrograman digunakan dalam pembuatan game ini ?
 Dalam game ini, konsep method digunakan untuk memisahkan tugas-tugas tertentu ke dalam blok-blok kode yang dapat dipanggil saat diperlukan. Pemisahan tugas ini mempermudah pembacaan kode, mengurangi redundansi, dan memungkinkan pengelolaan kode yang lebih baik. Berikut adalah penjelasan penggunaan method dalam game ini:
 
 1. **Method: `movePlayer(int moveX, int moveY)`**
@@ -155,7 +155,7 @@ Dalam game ini, konsep method digunakan untuk memisahkan tugas-tugas tertentu ke
 
 Pemisahan tugas-tugas ini membuat kode lebih terstruktur, mudah dimengerti, dan dapat diubah dengan lebih mudah. Selain itu, method-method ini dapat digunakan kembali atau dimodifikasi tanpa mempengaruhi bagian-bagian lain dari program.
 
-## 15. Bagaimana konsep class pada bahasa pemrograman digunakan dalam pembuatan game ini ?
+## 14. Bagaimana konsep class pada bahasa pemrograman digunakan dalam pembuatan game ini ?
 Dalam pembuatan game ini, konsep class pada bahasa pemrograman Java digunakan untuk mengorganisir kode ke dalam sebuah kelas yang mencerminkan entitas game, yaitu `DiamondTreasure`. Berikut adalah cara konsep class digunakan dalam game ini:
 
 1. **Encapsulation:**
@@ -175,7 +175,7 @@ Dalam pembuatan game ini, konsep class pada bahasa pemrograman Java digunakan un
 
 Dengan menggunakan konsep class, game ini menjadi lebih terstruktur, modular, dan memudahkan pemeliharaan serta pengembangan kode di masa depan. Setiap elemen game dikelola dalam satu entitas (kelas) yang menyederhanakan kompleksitas program.
 
-## 16. Jelaskan algoritma buatan sendiri yang digunakan pada pembuatan game ini !
+## 15. Jelaskan algoritma buatan sendiri yang digunakan pada pembuatan game ini !
 1. **Tampilan awal game**
    - Tampilkan start, setting, exit
      
