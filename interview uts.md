@@ -181,17 +181,14 @@ Dengan menggunakan konsep class, game ini menjadi lebih terstruktur, modular, da
 1. **Tampilan awal game**
    - Tampilkan start, setting, exit
 
-     a. Menu Start
-           Pada menu start terdapat pemilihan level / tingkat kesulitan pada game, yaitu ada level :
+     a. Menu Start : Pada menu start terdapat pemilihan level / tingkat kesulitan pada game, yaitu ada level 
      - Easy
      - Medium
      - Hard
      
-     b. Menu Setting
-            Saat pengguna ingin bermain game, pertama pengguna bisa memilih menu setting dan akan di arahkan pada menu pemilihan karakter untuk memilih karakter terlebih dahulu.
+     b. Menu Setting : Saat pengguna ingin bermain game, pertama pengguna bisa memilih menu setting dan akan di arahkan pada menu pemilihan karakter untuk memilih karakter terlebih dahulu.
 
-     c. Menu Exit
-            Keluar dari game
+     c. Menu Exit : Keluar dari game
      
 2. **Mulai Permainan**
 
