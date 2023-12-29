@@ -4,7 +4,7 @@ Latar belakang saya  membuat game ini yaitu sebagai wadah untuk menyalurkan peng
 
 ## 1.2. Deksripsi Teknologi Informasi
 
-Ruby adalah seorang pencari harta karun, dia harus mendapatkan koin terlebih dahulu untuk menuju ke pos, setiap koin yang di dapatkan Ruby juga akan menambah energi yang di miliki Ruby. Setelah Ruby berhasil mengumpulkan koin maka ruby bisa menuju ke pos pos, yang dimana di pos tersebut dia akan mendapatkan sebuah petunjuk dan Ruby harus mengikuti semua petunjuk yang bersumber dari catatan di pos tersebut agar berhasil mengumpulkan peti - peti harta karun. Namun, di tengah permainan Ruby juga harus melewati rintangan berupa ular, yang dimana jikalau Ruby terkena ular, energi yang di miliki Ruby akan berkurang. Dan keetika Ruby berjalan jalan secara terus menerus pun energi Ruby akan berkurang sedikit demi sedikit.
+Ruby adalah seorang pencari harta karun, dia harus mendapatkan koin terlebih dahulu untuk menuju ke pos, setiap koin yang di dapatkan Ruby akan menambah energi yang dimiliki Ruby. Setelah Ruby berhasil mengumpulkan koin maka ruby bisa menuju ke pos pos, yang dimana di pos tersebut dia harus menjawab sebuah pertanyaan, jika Ruby berhasil menjawab pertanyaan maka Ruby akan mendapatkan sebuah petunjuk dan Ruby harus mengikuti semua petunjuk yang bersumber dari catatan di pos tersebut agar dapat berhasil mengumpulkan peti - peti harta karun. Namun, di tengah permainan Ruby juga harus melewati rintangan berupa ular, yang dimana jikalau Ruby terkena ular, energi yang di miliki Ruby akan berkurang 10. Dan ketika Ruby berjalan 1 langkah maka energi Ruby akan berkurang 1.
 
 ## 1.3. Branding
 
@@ -12,7 +12,9 @@ Ruby adalah seorang pencari harta karun, dia harus mendapatkan koin terlebih dah
       Diamond Treasure Hunter 
 
 1.3.2 Deskripsi Target :
-      Anak anak usia 8 tahun ke atas
+      - Anak anak usia 8 tahun ke atas
+      - Orang yang senang bermain game
+      - Orang yang menyukai tantangan
 
 1.3.3 Genre :
       Edukasi
@@ -21,9 +23,9 @@ Ruby adalah seorang pencari harta karun, dia harus mendapatkan koin terlebih dah
 
 Sebagai | Saya ingin bisa | Sehingga | Prioritas
 ---|---|---|---
-Player | Berjalan kemana mana |Bisa Mencari petunjuk|⭐⭐⭐⭐⭐
+Player | Berjalan kemana mana |Bisa mengambil koin dan mencari petunjuk|⭐⭐⭐⭐⭐
 Player | Mengambil koin |Menambah energi player dan mendapat petunjuk| ⭐⭐⭐⭐⭐
-Player | Melewati rintangan |Melanjutkan mencari petunjuk |⭐⭐⭐⭐⭐
+Player | Melewati rintangan |Melanjutkan permainan dan mencari harta karun|⭐⭐⭐⭐⭐
 Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐⭐⭐
 
 ## 3. Struktur Data
@@ -31,6 +33,8 @@ Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐�
 
 ## 5. Teknologi, Library, dan Framework
 
+    UI/UX Design : Figma
+    Text Editor : VS Code
 
 
 ## 6. Desain User Experience dan User Interface
@@ -56,22 +60,21 @@ Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐�
       - Method
       - Class
 
-## 9. Demonstrasi Video
+## 9. Link demo di youtube
 
-Link youtube nya
+[in progres]
 
-## 10. Bagaimana mesin komputasi dan sistem operasi berperan dalam produk teknologi informasimu ?
+## 10. Link folder kode pemograman
 
-Link youtube nya di detik jawaban ini
+## 11. Bagaimana konsep variable, data type dan operator pada bahasa pemrograman digunakan dalam pembuatan game ini ?
 
-## 11. Bagaimana algoritma, struktur data, dan bahasa pemrograman berperan dalam produk teknologi informasimu ?
 
-Link youtube nya di detik jawaban ini
+## 12. Bagaimana konsep boolean dan conditions pada bahasa pemrograman digunakan dalam pembuatan game ini ? 
 
-## 12. Bagaimana metode pengembangan perangkat lunak / Software Development Life Cycle berperan dalam produk teknologi informasimu ?
+## 13. Bagaimana konsep looping dan array pada bahasa pemrograman digunakan dalam pembuatan game ini ?
 
-Link youtube nya di detik jawaban ini
+## 14. Bagaimana konsep method pada bahasa pemrograman digunakan dalam pembuatan game ini ?
 
-## 13. Bagaimana database / sistem basis data berperan dalam produk teknologi informasimu ?
+## 15. Bagaimana konsep class pada bahasa pemrograman digunakan dalam pembuatan game ini ?
 
-Link youtube nya di detik jawaban ini# job---interview---pdp.md
+## 16. Jelaskan algoritma buatan sendiri yang digunakan pada pembuatan game ini !
