@@ -50,15 +50,15 @@ Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐�
 
 
 ## 7. Prinsip - prinsip yang diterapkan dalam game
-      - Variable
-      - Data Type
-      - Operator
-      - Boolean
-      - Conditions: if / else / switch
-      - Looping: while / for
-      - Array
-      - Method
-      - Class
+- Variable
+- Data Type
+- Operator
+- Boolean
+- onditions: if / else / switch
+- Looping: while / for
+- Array
+- Method
+- Class
 
 ## 8. Link demo di youtube
 
