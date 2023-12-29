@@ -188,10 +188,10 @@ Dengan menggunakan konsep class, game ini menjadi lebih terstruktur, modular, da
      - Hard
      
      b. Menu Setting
-     Saat pengguna ingin bermain game, pertama pengguna bisa memilih menu setting dan akan di arahkan pada menu pemilihan karakter untuk memilih karakter terlebih dahulu.
+Saat pengguna ingin bermain game, pertama pengguna bisa memilih menu setting dan akan di arahkan pada menu pemilihan karakter untuk memilih karakter terlebih dahulu.
 
      c. Menu Exit
-     Keluar dari game
+Keluar dari game
      
 2. **Mulai Permainan**
 
