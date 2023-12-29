@@ -1,6 +1,7 @@
 ## 1. Jelaskan penggunaan array, looping, condition, dan class pada game yang dibuat !
 
 a). Array :
+  
   Pada script coding projek game saya, saya menggunakan Array dua dimensi yang dimana array ini di gunakan untuk sebuah labirin. Setiap karakter dalam array menentukan elemen labirin seperti dinding, karakter player, koin, harta karun, dan ular.
   - private static char[][] maze
    
@@ -15,7 +16,7 @@ c). condition :
 ![coding](https://github.com/yuliaaln/uts-uas-pdp.md/assets/144923542/e06e29bc-6fff-41d0-9d15-650371a457d2)
 
 d). class :
-  public class DiamondTreasure merupakan deklarasi kelas yang berisi semua logika permainan, seperti metode untuk memindahkan player, memeriksa kevalidan langkah, dan menampilkan labirin.
+- public class DiamondTreasure merupakan deklarasi kelas yang berisi semua logika permainan, seperti metode untuk memindahkan player, memeriksa kevalidan langkah, dan menampilkan labirin.
 
 pada class DiamondTreasure ini juga memiliki beberapa variabel class yaitu :
 - private static int playerX;
