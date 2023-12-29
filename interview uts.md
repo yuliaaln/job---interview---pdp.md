@@ -54,7 +54,7 @@ Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐�
 - Data Type
 - Operator
 - Boolean
-- onditions: if / else / switch
+- Conditions: if / else / switch
 - Looping: while / for
 - Array
 - Method
