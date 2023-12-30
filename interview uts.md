@@ -48,6 +48,10 @@ Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐�
 ## 6. Flowchart 
 ![perancangan game-flowchart drawio](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/5bf59d6f-dbc3-4f2e-b2e4-caf761e24c27)
 
+revisi flowchart
+![perancangan game-flowchart drawio (1)](https://github.com/yuliaaln/uts-uas-pdp/assets/144923542/9538b2d6-951e-422c-8da0-c5528fa8575a)
+
+
 
 ## 7. Prinsip - prinsip yang diterapkan dalam game
 - Variable
