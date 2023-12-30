@@ -48,8 +48,11 @@ Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐�
 ## 6. Flowchart 
 ![perancangan game-flowchart drawio](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/5bf59d6f-dbc3-4f2e-b2e4-caf761e24c27)
 
-revisi flowchart
-![perancangan game-flowchart drawio (1)](https://github.com/yuliaaln/uts-uas-pdp/assets/144923542/9538b2d6-951e-422c-8da0-c5528fa8575a)
+**revisi flowchart**
+
+![perancangan game-flowchart drawio (2)](https://github.com/yuliaaln/uts-uas-pdp/assets/144923542/3893cf99-9f20-4468-80ee-c85647a4cfe0)
+
+
 
 
 
