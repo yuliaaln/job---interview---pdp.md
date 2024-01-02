@@ -29,7 +29,8 @@ Player | Melewati rintangan |Melanjutkan permainan dan mencari harta karun|⭐�
 Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐⭐⭐
 
 ## 3. Struktur Data
-![struktur data game](https://github.com/yuliaaln/uts-uas-pdp.md/assets/144923542/b01e7107-6c10-44a7-b607-7dcee11084b5)
+
+![struktur data (1)](https://github.com/yuliaaln/uts-uas-pdp/assets/144923542/29db7201-3967-4b14-804e-f1e411ade5ed)
 
 ## 4. Teknologi, Library, dan Framework
 
