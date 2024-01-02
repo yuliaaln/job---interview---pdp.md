@@ -38,11 +38,15 @@ Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐�
 
 
 ## 5. Desain User Experience dan User Interface
-![Layout dashboard](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/1b1af946-1851-4801-8616-2bdef50d5604)
+![Layout dashboard (2)](https://github.com/yuliaaln/uts-uas-pdp/assets/144923542/374a0d30-3777-4942-b213-a6e2150ee33e)
 
-![Layout masuk permainan](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/d44aaad2-c7b1-4b6e-ac76-f2ce78cfe07d)
+![Layout masuk permainan (1)](https://github.com/yuliaaln/uts-uas-pdp/assets/144923542/a1e1f763-c489-48e8-8f2a-9cb092044be5)
+
+![level](https://github.com/yuliaaln/uts-uas-pdp/assets/144923542/1084cf81-9c67-4206-b238-ca78f61ea66e)
 
 ![Screenshot 2023-11-08 13 33 05](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/0b52dace-da42-430f-aa11-6240a468b80c)
+![Screenshot 2024-01-02 21 22 11](https://github.com/yuliaaln/uts-uas-pdp/assets/144923542/94a59e48-eaea-448d-8851-bb5640adf518)
+
 
 ![0a5919fdac5c6ac80ce9f34b43b664c1](https://github.com/yuliaaln/uts-uas-pdp/assets/144923542/1ec4222b-7e58-43aa-89fa-461bbac16f98)
 
