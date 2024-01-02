@@ -44,6 +44,9 @@ Player | Mengumpulkan harta karun |Berhasil keluar permainan dan menang|⭐⭐�
 
 ![Screenshot 2023-11-08 13 33 05](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/0b52dace-da42-430f-aa11-6240a468b80c)
 
+![0a5919fdac5c6ac80ce9f34b43b664c1](https://github.com/yuliaaln/uts-uas-pdp/assets/144923542/1ec4222b-7e58-43aa-89fa-461bbac16f98)
+
+![bf52bf1dad9831e086cb8f8bb8ac77b8](https://github.com/yuliaaln/uts-uas-pdp/assets/144923542/d42ba34d-c5fd-4b81-9263-81c4e3e71f55)
 
 ## 6. Flowchart 
 ![perancangan game-flowchart drawio](https://github.com/yuliaaln/job---interview---pdp.md/assets/144923542/5bf59d6f-dbc3-4f2e-b2e4-caf761e24c27)
